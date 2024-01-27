@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form onsubmit="sendEmail(); reset(); return false;" class="form-contact">
+            <h3>Get in touch</h3>
+            <input type="text" id="first_name" placeholder="your name" required>
+            <input type="text" id="last_name" placeholder="your last name" required>
+            <input type="email" id="email" placeholder="your email" required>
+            <input type="text" id="phone" placeholder="your phone number" required>
+            <button type = "submit" id="submit_button">send</button>
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
